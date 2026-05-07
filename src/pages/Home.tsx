@@ -46,7 +46,7 @@ const stats = [
   { value: "40+", label: "Years of Service" },
   { value: "15+", label: "Departments" },
   { value: "24/7", label: "Emergency Care" },
-  { value: "10000+", label: "Patients Treated" },
+  { value: "100000+", label: "Patients Treated" },
 ];
 
 const departmentTags: Record<string, string[]> = {
