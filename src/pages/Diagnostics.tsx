@@ -26,6 +26,8 @@ export default function DiagnosticsPage() {
     return acc;
   }, {});
 
+  const sortedCategories = Object.entries(grouped).sort(([, a], [, b]) => b.length - a.length);
+
   return (
     <div className="min-h-screen pt-[72px]">
       {/* Page Header */}
@@ -35,7 +37,7 @@ export default function DiagnosticsPage() {
             <h1 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
               Diagnostics & Facilities
             </h1>
-            <p className="text-white/60 text-lg max-w-2xl mx-auto">
+            <p className="text-center text-white/60 text-lg max-w-2xl mx-auto">
               State-of-the-art diagnostic equipment for accurate and timely diagnosis.
             </p>
           </ScrollReveal>
@@ -43,7 +45,7 @@ export default function DiagnosticsPage() {
       </section>
 
       {/* Test Categories */}
-      <section className="py-16 md:py-20 bg-white">
+      <section className="py-20 md:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader
             eyebrow="What We Offer"
@@ -52,11 +54,15 @@ export default function DiagnosticsPage() {
             centered
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {Object.entries(grouped).map(([category, items], i) => (
-              <ScrollReveal key={category} delay={i * 100}>
-                <div className="bg-[#F8FAFB] border border-[#E2E8F0] rounded-xl p-6 hover:shadow-lg transition-shadow">
-                  <div className="flex items-center gap-3 mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6">
+            {sortedCategories.map(([category, items], i) => (
+              <ScrollReveal
+                key={category}
+                delay={i * 100}
+                className={`h-full ${i < 3 ? "lg:col-span-2" : "lg:col-span-3"}`}
+              >
+                <div className="h-full bg-[#F8FAFB] border border-[#E2E8F0] rounded-xl p-6 hover:shadow-lg transition-shadow">
+                  <div className="flex items-center gap-3 mb-5">
                     <div className={`w-12 h-12 rounded-full flex items-center justify-center ${categoryColors[category] || "bg-teal-50 text-teal-600"}`}>
                       {categoryIcons[category] || <Microscope className="w-6 h-6" />}
                     </div>
@@ -64,7 +70,7 @@ export default function DiagnosticsPage() {
                       {category} Tests
                     </h3>
                   </div>
-                  <ul className="space-y-3">
+                  <ul className="space-y-4">
                     {items.map((test) => (
                       <li key={test.id} className="flex items-start gap-3">
                         <span className="w-1.5 h-1.5 rounded-full bg-teal-500 mt-2 shrink-0" />
@@ -85,7 +91,7 @@ export default function DiagnosticsPage() {
       </section>
 
       {/* Special Facility */}
-      <section className="py-16 md:py-20 bg-[#E0F2F1]">
+      <section className="py-16 md:py-24 bg-[#E0F2F1]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <ScrollReveal>
             <div className="inline-flex items-center gap-2 bg-teal-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
@@ -95,7 +101,7 @@ export default function DiagnosticsPage() {
             <h2 className="font-display text-3xl font-bold text-[#1A2332] mb-4">
               Endoscopy & Colonoscopy Now Available
             </h2>
-            <p className="text-[#64748B] leading-relaxed">
+            <p className="text-center text-[#64748B] leading-relaxed">
               We are proud to announce that advanced Endoscopy and Colonoscopy facilities are now available at Dr. N.R. Acharya Memorial Hospital. These procedures are performed by our experienced surgical team led by Dr. Apoorva Acharya.
             </p>
           </ScrollReveal>

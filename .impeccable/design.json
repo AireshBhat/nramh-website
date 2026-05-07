@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-06T00:00:00Z",
+  "title": "Design System: Dr. N.R. Acharya Memorial Hospital",
+  "extensions": {
+    "colorMeta": {
+      "hospital-navy": {
+        "role": "primary",
+        "displayName": "Hospital Navy",
+        "canonical": "oklch(22% 0.05 245)",
+        "tonalRamp": [
+          "oklch(15% 0.03 245)",
+          "oklch(22% 0.05 245)",
+          "oklch(32% 0.06 245)",
+          "oklch(45% 0.06 245)",
+          "oklch(60% 0.06 245)",
+          "oklch(72% 0.05 245)",
+          "oklch(85% 0.03 245)",
+          "oklch(95% 0.01 245)"
+        ]
+      },
+      "hospital-navy-deep": {
+        "role": "primary",
+        "displayName": "Hospital Navy Deep",
+        "canonical": "oklch(18% 0.04 245)",
+        "tonalRamp": [
+          "oklch(12% 0.03 245)",
+          "oklch(18% 0.04 245)",
+          "oklch(28% 0.05 245)",
+          "oklch(40% 0.06 245)",
+          "oklch(55% 0.06 245)",
+          "oklch(70% 0.05 245)",
+          "oklch(83% 0.03 245)",
+          "oklch(94% 0.01 245)"
+        ]
+      },
+      "clinical-teal": {
+        "role": "secondary",
+        "displayName": "Clinical Teal",
+        "canonical": "oklch(72% 0.13 180)",
+        "tonalRamp": [
+          "oklch(20% 0.06 180)",
+          "oklch(32% 0.09 180)",
+          "oklch(45% 0.12 180)",
+          "oklch(58% 0.14 180)",
+          "oklch(72% 0.13 180)",
+          "oklch(82% 0.10 180)",
+          "oklch(90% 0.06 180)",
+          "oklch(96% 0.02 180)"
+        ]
+      },
+      "clinical-teal-light": {
+        "role": "secondary",
+        "displayName": "Clinical Teal Light",
+        "canonical": "oklch(80% 0.12 180)",
+        "tonalRamp": [
+          "oklch(22% 0.05 180)",
+          "oklch(35% 0.08 180)",
+          "oklch(48% 0.11 180)",
+          "oklch(62% 0.13 180)",
+          "oklch(75% 0.13 180)",
+          "oklch(85% 0.09 180)",
+          "oklch(92% 0.05 180)",
+          "oklch(97% 0.015 180)"
+        ]
+      },
+      "clinical-teal-deep": {
+        "role": "secondary",
+        "displayName": "Clinical Teal Deep",
+        "canonical": "oklch(58% 0.13 180)",
+        "tonalRamp": [
+          "oklch(18% 0.06 180)",
+          "oklch(28% 0.09 180)",
+          "oklch(40% 0.12 180)",
+          "oklch(52% 0.13 180)",
+          "oklch(65% 0.12 180)",
+          "oklch(78% 0.09 180)",
+          "oklch(88% 0.05 180)",
+          "oklch(95% 0.02 180)"
+        ]
+      },
+      "surgical-mint": {
+        "role": "tertiary",
+        "displayName": "Surgical Mint",
+        "canonical": "oklch(94% 0.02 180)",
+        "tonalRamp": [
+          "oklch(20% 0.03 180)",
+          "oklch(32% 0.03 180)",
+          "oklch(45% 0.03 180)",
+          "oklch(60% 0.025 180)",
+          "oklch(75% 0.02 180)",
+          "oklch(85% 0.02 180)",
+          "oklch(94% 0.02 180)",
+          "oklch(98% 0.005 180)"
+        ]
+      },
+      "paper-white": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "oklch(98% 0.003 220)",
+        "tonalRamp": [
+          "oklch(20% 0.005 220)",
+          "oklch(35% 0.005 220)",
+          "oklch(50% 0.005 220)",
+          "oklch(65% 0.005 220)",
+          "oklch(80% 0.005 220)",
+          "oklch(90% 0.005 220)",
+          "oklch(98% 0.003 220)",
+          "oklch(99.5% 0.001 220)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(85% 0.005 220)",
+          "oklch(90% 0.004 220)",
+          "oklch(94% 0.003 220)",
+          "oklch(96% 0.002 220)",
+          "oklch(98% 0.001 220)",
+          "oklch(99% 0 0)",
+          "oklch(99.5% 0 0)",
+          "oklch(100% 0 0)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(22% 0.03 245)",
+        "tonalRamp": [
+          "oklch(12% 0.02 245)",
+          "oklch(22% 0.03 245)",
+          "oklch(32% 0.03 245)",
+          "oklch(45% 0.03 245)",
+          "oklch(60% 0.025 245)",
+          "oklch(75% 0.015 245)",
+          "oklch(85% 0.008 245)",
+          "oklch(95% 0.003 245)"
+        ]
+      },
+      "muted-slate": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "canonical": "oklch(50% 0.02 245)",
+        "tonalRamp": [
+          "oklch(20% 0.02 245)",
+          "oklch(32% 0.02 245)",
+          "oklch(42% 0.02 245)",
+          "oklch(50% 0.02 245)",
+          "oklch(62% 0.02 245)",
+          "oklch(75% 0.015 245)",
+          "oklch(88% 0.008 245)",
+          "oklch(96% 0.003 245)"
+        ]
+      },
+      "light-slate": {
+        "role": "neutral",
+        "displayName": "Light Slate",
+        "canonical": "oklch(70% 0.02 245)",
+        "tonalRamp": [
+          "oklch(22% 0.02 245)",
+          "oklch(35% 0.02 245)",
+          "oklch(48% 0.02 245)",
+          "oklch(60% 0.02 245)",
+          "oklch(70% 0.02 245)",
+          "oklch(82% 0.015 245)",
+          "oklch(91% 0.008 245)",
+          "oklch(97% 0.003 245)"
+        ]
+      },
+      "divider": {
+        "role": "neutral",
+        "displayName": "Divider",
+        "canonical": "oklch(91% 0.01 220)",
+        "tonalRamp": [
+          "oklch(25% 0.01 220)",
+          "oklch(40% 0.01 220)",
+          "oklch(55% 0.01 220)",
+          "oklch(70% 0.01 220)",
+          "oklch(82% 0.01 220)",
+          "oklch(91% 0.01 220)",
+          "oklch(96% 0.005 220)",
+          "oklch(99% 0.002 220)"
+        ]
+      },
+      "emergency-red": {
+        "role": "system",
+        "displayName": "Emergency Red",
+        "canonical": "oklch(48% 0.20 25)",
+        "tonalRamp": [
+          "oklch(20% 0.08 25)",
+          "oklch(32% 0.13 25)",
+          "oklch(48% 0.20 25)",
+          "oklch(58% 0.20 25)",
+          "oklch(70% 0.15 25)",
+          "oklch(82% 0.10 25)",
+          "oklch(91% 0.05 25)",
+          "oklch(97% 0.02 25)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero h1 only. One per page. Carries the page's headline statement."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2 across the site. Anchors each section block."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card titles, doctor names, footer column headers."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All reading copy. Cap line length at 65 to 75 characters in long-form sections."
+      },
+      "label": {
+        "displayName": "Label / Eyebrow",
+        "purpose": "Uppercase tracked label sitting above section h2, on buttons, and on badges. The 0.08em letter-spacing is the signature."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-xs",
+        "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        "purpose": "Resting hairline shadow available on form inputs and outline buttons. Optional. Use only when a tonal border alone is insufficient."
+      },
+      {
+        "name": "shadow-lg",
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "purpose": "Hover-lift shadow for cards and the scrolled-state navbar. The only state-driven shadow in the system."
+      }
+    ],
+    "motion": [
+      {
+        "name": "duration-card-hover",
+        "value": "300ms",
+        "purpose": "Card hover transition (transform + shadow + border)."
+      },
+      {
+        "name": "duration-color",
+        "value": "200ms",
+        "purpose": "Color-only transitions on links and buttons."
+      },
+      {
+        "name": "duration-reveal",
+        "value": "700ms",
+        "purpose": "Scroll-reveal entrance for content blocks (opacity + translate)."
+      },
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Default easing for all state transitions. Ease-out only. No bounce, no spring."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Default brand action. Clinical Teal background, used sparingly as the one accent.",
+      "html": "<button class=\"ds-btn-primary\">Explore Departments</button>",
+      "css": ".ds-btn-primary { background: #14B8A6; color: #FFFFFF; padding: 12px 24px; border: none; border-radius: 8px; font-family: 'Inter', system-ui, sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.01em; cursor: pointer; transition: background 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-primary:hover { background: #2DD4BF; } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.5); }"
+    },
+    {
+      "name": "Secondary Button (Navy)",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Used to balance a Primary teal CTA on the same surface. Reads as institutional, calm.",
+      "html": "<button class=\"ds-btn-secondary\">Read Our Full Story</button>",
+      "css": ".ds-btn-secondary { background: #0A2540; color: #FFFFFF; padding: 12px 24px; border: none; border-radius: 8px; font-family: 'Inter', system-ui, sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: background 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-secondary:hover { background: #081C32; } .ds-btn-secondary:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.5); }"
+    },
+    {
+      "name": "Outline Button on Dark",
+      "kind": "button",
+      "refersTo": "button-outline-on-dark",
+      "description": "Hero secondary action sitting on Hospital Navy. Quiet, never competes with the Primary teal CTA.",
+      "html": "<button class=\"ds-btn-outline-dark\">Contact Us</button>",
+      "css": ".ds-btn-outline-dark { background: transparent; color: #FFFFFF; padding: 12px 24px; border: 1px solid rgba(255,255,255,0.4); border-radius: 8px; font-family: 'Inter', system-ui, sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: background 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-outline-dark:hover { background: rgba(255,255,255,0.1); } .ds-btn-outline-dark:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.5); }"
+    },
+    {
+      "name": "Department Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "The canonical card pattern: leading icon container, Playfair title, muted body, inline link affordance. Flat at rest, lifts on hover.",
+      "html": "<a class=\"ds-card\" href=\"#\"><div class=\"ds-card-row\"><div class=\"ds-icon-circle\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" width=\"22\" height=\"22\"><path d=\"M11 2a3 3 0 0 0-3 3v7a4 4 0 0 0 4 4 4 4 0 0 0 4-4V5a3 3 0 0 0-3-3z\"/><path d=\"M5 11a7 7 0 0 0 14 0\"/><circle cx=\"19\" cy=\"19\" r=\"3\"/></svg></div><div class=\"ds-card-body\"><h3 class=\"ds-card-title\">Cardiology</h3><p class=\"ds-card-text\">Heart health, screening, and chronic-care follow-up.</p><span class=\"ds-card-link\">View Doctors &rsaquo;</span></div></div></a>",
+      "css": ".ds-card { display: block; background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; padding: 24px; text-decoration: none; transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1), border-color 300ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 300ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-card:hover { transform: translateY(-4px); border-color: #14B8A6; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); } .ds-card-row { display: flex; gap: 16px; align-items: flex-start; } .ds-icon-circle { width: 56px; height: 56px; border-radius: 9999px; background: #E0F2F1; color: #0D9488; display: flex; align-items: center; justify-content: center; flex-shrink: 0; } .ds-card-body { flex: 1; min-width: 0; } .ds-card-title { font-family: 'Playfair Display', Georgia, serif; font-size: 18px; font-weight: 600; color: #1A2332; margin: 0 0 4px 0; transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-card:hover .ds-card-title { color: #0D9488; } .ds-card-text { font-family: 'Inter', system-ui, sans-serif; font-size: 14px; line-height: 1.6; color: #64748B; margin: 0 0 12px 0; } .ds-card-link { display: inline-flex; align-items: center; gap: 4px; font-family: 'Inter', system-ui, sans-serif; font-size: 14px; font-weight: 500; color: #0D9488; }"
+    },
+    {
+      "name": "Filter Pills",
+      "kind": "chip",
+      "refersTo": "pill",
+      "description": "Department filter pills shown above the doctor grid. Active state uses Clinical Teal; inactive sits on Paper White.",
+      "html": "<div class=\"ds-pill-group\"><button class=\"ds-pill ds-pill-active\">All</button><button class=\"ds-pill\">Cardiology</button><button class=\"ds-pill\">General Medicine</button><button class=\"ds-pill\">Pediatrics</button></div>",
+      "css": ".ds-pill-group { display: flex; flex-wrap: wrap; gap: 8px; } .ds-pill { background: #F8FAFB; color: #64748B; border: 1px solid #E2E8F0; border-radius: 9999px; padding: 8px 16px; font-family: 'Inter', system-ui, sans-serif; font-size: 14px; font-weight: 500; cursor: pointer; transition: background 200ms cubic-bezier(0.16, 1, 0.3, 1), color 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-pill:hover { background: #E0F2F1; color: #0D9488; } .ds-pill-active { background: #14B8A6; color: #FFFFFF; border-color: #14B8A6; } .ds-pill-active:hover { background: #14B8A6; color: #FFFFFF; } .ds-pill:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.5); }"
+    },
+    {
+      "name": "Section Header",
+      "kind": "custom",
+      "refersTo": "section-header",
+      "description": "The brand's signature sectioning pattern: 12px uppercase teal eyebrow, Playfair h2, 60px teal underline, optional muted subtitle.",
+      "html": "<header class=\"ds-section-header\"><span class=\"ds-eyebrow\">Our Departments</span><h2 class=\"ds-section-title\">Comprehensive Care Across Multiple Specialties</h2><div class=\"ds-section-rule\"></div><p class=\"ds-section-subtitle\">Experienced specialists across a wide range of medical disciplines.</p></header>",
+      "css": ".ds-section-header { text-align: center; max-width: 720px; margin: 0 auto 48px auto; } .ds-eyebrow { display: inline-block; font-family: 'Inter', system-ui, sans-serif; font-size: 12px; font-weight: 500; color: #0D9488; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px; } .ds-section-title { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1.875rem, 2vw + 1rem, 2.25rem); font-weight: 700; line-height: 1.2; color: #1A2332; margin: 0 0 16px 0; } .ds-section-rule { width: 60px; height: 3px; background: #14B8A6; border-radius: 9999px; margin: 0 auto 16px auto; } .ds-section-subtitle { font-family: 'Inter', system-ui, sans-serif; font-size: 16px; line-height: 1.65; color: #64748B; margin: 0; }"
+    },
+    {
+      "name": "Emergency Banner",
+      "kind": "custom",
+      "refersTo": "emergency-banner",
+      "description": "Full-bleed signature banner. The single appearance of Emergency Red on the home page below the hero.",
+      "html": "<div class=\"ds-emergency-banner\"><div class=\"ds-emergency-inner\"><div class=\"ds-emergency-text\"><p class=\"ds-emergency-title\">Emergency Medical &amp; Surgical Care, Immediate Life-Saving Care When You Need It Most</p><div class=\"ds-emergency-numbers\"><a class=\"ds-emergency-num\" href=\"tel:+916363767805\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" width=\"12\" height=\"12\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>6363-767-805</a><a class=\"ds-emergency-num\" href=\"tel:+916363793603\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" width=\"12\" height=\"12\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>6363-793-603</a></div></div></div></div>",
+      "css": ".ds-emergency-banner { background: #B91C1C; color: #FFFFFF; } .ds-emergency-inner { max-width: 1280px; margin: 0 auto; padding: 12px 24px; display: flex; align-items: center; justify-content: space-between; gap: 12px; } .ds-emergency-text { flex: 1; } .ds-emergency-title { font-family: 'Inter', system-ui, sans-serif; font-size: 14px; font-weight: 600; margin: 0 0 4px 0; } .ds-emergency-numbers { display: flex; flex-wrap: wrap; gap: 4px 16px; } .ds-emergency-num { display: inline-flex; align-items: center; gap: 4px; font-family: 'Inter', system-ui, sans-serif; font-size: 13px; color: rgba(255,255,255,0.9); text-decoration: none; transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-emergency-num:hover { color: #FFFFFF; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Karavali Family Doctor",
+    "overview": "This system is for Dr. N.R. Acharya Memorial Hospital, a 40+ year community hospital on the Karavali coast of Karnataka, founded in 1983 in memory of Dr. N. R. Acharya. It is not a corporate hospital chain. It is not a Western health startup. It is the local family doctor at scale: a real institution with a real founder, a real address, real phone numbers, and decades of unbroken service to rural patients in Koteshwara and the surrounding villages of Udupi district. The visual language is plain and professional. Warmth comes from tone and restraint, from plain language, generous spacing, real specifics, and human portraits, not from gradients, glassmorphism, animated flourish, or maximal color. The site's primary user arrives in a hurry, on a phone, on a 3G signal, with a sick relative in mind. Everything on the page must answer to that user first.",
+    "keyCharacteristics": [
+      "Plain and professional palette: institutional, not decorative.",
+      "Serif display + humanist sans body: gravity in headings, clarity in reading.",
+      "Flat surfaces at rest; hover-lift only as a response to interaction.",
+      "Mobile-first geometry: large tap targets, type sized for arm-length phone reading.",
+      "Bilingual-ready (Kannada + English) as a peer experience, not a translation overlay.",
+      "Performance is a brand value: slow 3G is the design target, not an exception."
+    ],
+    "rules": [
+      {
+        "name": "The One Voice Rule",
+        "body": "Clinical Teal is the only chromatic accent. It carries primary CTAs, eyebrow labels, section underlines, and icon glyphs. It must not be paired with another saturated accent on the same screen. The legacy --warm-gold token is forbidden in production surfaces.",
+        "section": "colors"
+      },
+      {
+        "name": "The Navy-Or-Mint Rule",
+        "body": "Strong sections use Hospital Navy (committed, institutional) or Surgical Mint (soft, calm). They never appear together as adjacent full-bleed sections; one must be separated from the other by a Paper White or White section.",
+        "section": "colors"
+      },
+      {
+        "name": "The Black-And-Pure-White Ban",
+        "body": "Pure black and a flat printer's white are not in this palette. Text uses Ink (#1A2332); surfaces use White or Paper White.",
+        "section": "colors"
+      },
+      {
+        "name": "The Playfair-For-Headings-Only Rule",
+        "body": "Playfair Display is reserved for h1, h2, h3, and the hospital wordmark. It must never appear on body copy, button labels, navigation links, or form fields.",
+        "section": "typography"
+      },
+      {
+        "name": "The 65ch Reading Rule",
+        "body": "All long-form body copy caps at 65 to 75 characters per line. Edge-to-edge prose is forbidden.",
+        "section": "typography"
+      },
+      {
+        "name": "The Single Display Per Page Rule",
+        "body": "Only one Display-size headline per page. Subsequent sections use Headline.",
+        "section": "typography"
+      },
+      {
+        "name": "The Bilingual Pairing Rule",
+        "body": "Kannada copy uses Noto Sans Kannada at the same size and weight as the Inter equivalent. The two language layers must visually weigh the same on a page.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Surfaces are flat at rest. Shadows appear only as a response to state: hover, scroll, focus.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Two-Step-Shadow Ban",
+        "body": "No second elevation tier. Hover (shadow-lg) is the only sanctioned elevation. No Material Design shadow ladder.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use Clinical Teal sparingly, as the one accent. Keep its surface footprint under 10% per screen.",
+      "Do lead every department, service, and value with an icon container, never a colored side stripe.",
+      "Do keep cards flat at rest. Apply shadow-lg and -translate-y-1 only on hover.",
+      "Do use Playfair Display only for h1, h2, h3, and the hospital wordmark. Body, labels, navigation, and buttons stay in Inter.",
+      "Do size body type for arm-length phone reading (16px minimum, 1.65 line-height) and treat 3G performance as a hard budget.",
+      "Do carry every anti-reference from PRODUCT.md through to implementation: corporate-hospital chain glossiness, Western telehealth-startup warmth-strip, decorative overload, identical-card grids, template-y AI feel.",
+      "Do treat Kannada as a peer language. Both versions must read naturally and both must reach the emergency phone numbers in the same number of taps.",
+      "Do earn trust with specifics: years, names, places, phone numbers, department counts. Not stock photos or superlatives."
+    ],
+    "donts": [
+      "Don't introduce a second saturated accent. The --warm-gold token is forbidden in production surfaces.",
+      "Don't use border-left or border-right greater than 1px as a colored stripe on any element.",
+      "Don't apply background-clip: text with a gradient on any heading. Gradient text is forbidden across the system.",
+      "Don't use glassmorphism decoratively. The one sanctioned use is the scrolled navbar; everywhere else it is forbidden.",
+      "Don't ship the hero-metric template (huge gradient number, label, supporting stats with chromatic accent).",
+      "Don't stack identical icon-plus-heading-plus-paragraph cards as the dominant pattern of more than two consecutive sections.",
+      "Don't nest cards. A card never contains another card.",
+      "Don't use pure #000000 or a flat printer's #FFFFFF for text. Text is Ink (#1A2332); body surfaces are Paper White or White.",
+      "Don't introduce em dashes in shipped UI copy. Use commas, colons, semicolons, periods, or parentheses.",
+      "Don't use bouncy, elastic, or playful easing curves. Motion is ease-out only, no spring physics.",
+      "Don't animate CSS layout properties (width, height, top, left, padding). Only opacity and transform.",
+      "Don't ship hero imagery that is stock-photo gloss or generic medical clip-art. If a real founder portrait or a real ward photo is not available, ship without imagery."
+    ]
+  }
+}

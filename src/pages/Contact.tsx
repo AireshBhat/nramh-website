@@ -19,7 +19,7 @@ export default function Contact() {
             <h1 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
               Contact Us
             </h1>
-            <p className="text-white/60 text-lg max-w-2xl mx-auto">
+            <p className="text-center text-white/60 text-lg max-w-2xl mx-auto">
               Reach out for appointments, emergencies, or general inquiries. We are here to help.
             </p>
           </ScrollReveal>
@@ -116,7 +116,7 @@ export default function Contact() {
                   <h3 className="font-display text-xl font-semibold text-[#1A2332] mb-2">
                     Dr. N.R. Acharya Memorial Hospital
                   </h3>
-                  <p className="text-[#64748B] mb-4">
+                  <p className="text-center text-[#64748B] mb-4">
                     N.H.-66, Koteshwara,<br />Kundapura Taluk, Udupi district - 576222
                   </p>
                   <a

@@ -65,7 +65,7 @@ export default function Departments() {
             <h1 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
               Departments & Doctors
             </h1>
-            <p className="text-white/60 text-lg max-w-2xl mx-auto">
+            <p className="text-center text-white/60 text-lg max-w-2xl mx-auto">
               Meet our team of experienced specialists providing compassionate care across multiple disciplines.
             </p>
           </ScrollReveal>
@@ -101,8 +101,8 @@ export default function Departments() {
               const dept = getDepartmentById(doctor.departmentId);
               const svcs = getDoctorServices(doctor.id);
               return (
-                <ScrollReveal key={doctor.id} delay={i * 80}>
-                  <div className="bg-white rounded-xl border border-[#E2E8F0] p-6 hover:border-teal-500 hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+                <ScrollReveal key={doctor.id} delay={i * 80} className="h-full">
+                  <div className="h-full bg-white rounded-xl border border-[#E2E8F0] p-6 hover:border-teal-500 hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
                     {/* Department badge */}
                     <div className="flex items-center gap-2 mb-4">
                       <div className="w-8 h-8 rounded-full bg-[#E0F2F1] flex items-center justify-center text-teal-600">

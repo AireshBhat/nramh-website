@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router";
-import { Menu, X, Phone, Cross } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -28,7 +28,7 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+        scrolled || location.pathname !== "/"
           ? "bg-[#0A2540]/95 backdrop-blur-md shadow-lg"
           : "bg-transparent"
       }`}
@@ -37,9 +37,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-teal-500/20 flex items-center justify-center">
-              <Cross className="w-5 h-5 text-teal-400" />
-            </div>
+            <img src="/logo-symbol.svg" alt="Hospital logo" className="w-10 h-10 rounded-full object-cover" />
             <span className="font-display text-white text-lg font-bold leading-tight hidden sm:block">
               Dr. N.R. Acharya<br className="sm:hidden" /> Memorial Hospital
             </span>
@@ -47,7 +45,7 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center gap-8">
-            {navLinks.map((link) => (
+            {navLinks.map(link => (
               <Link
                 key={link.href}
                 to={link.href}
@@ -79,7 +77,11 @@ export default function Navbar() {
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >
-            {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
       </div>
@@ -88,7 +90,7 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="lg:hidden bg-[#0A2540]/98 backdrop-blur-md border-t border-white/10">
           <div className="px-4 py-4 space-y-3">
-            {navLinks.map((link) => (
+            {navLinks.map(link => (
               <Link
                 key={link.href}
                 to={link.href}

@@ -53,9 +53,6 @@ export default function About() {
             <h1 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
               About Us
             </h1>
-            <p className="text-white/60 text-sm">
-              Home → About Us
-            </p>
           </ScrollReveal>
         </div>
       </section>
@@ -76,13 +73,13 @@ export default function About() {
               <p className="text-xl text-[#1A2332] font-medium border-l-4 border-teal-500 pl-4 italic">
                 "Our founder, Dr. N. Bhaskara Acharya's journey, is a testament to compassion in action."
               </p>
-              <p>
+              <p className="text-justify hyphens-auto">
                 What began in 1983 as a modest 15-bed facility grew from his unwavering commitment to the rural communities around Koteshwara. Started his clinical practice along with his father, Dr. N. R. Acharya, in 1979, delivering infants and tending to the sick during house visits, he witnessed firsthand the hardships faced by the poor and backward populations.
               </p>
-              <p>
+              <p className="text-justify hyphens-auto">
                 Those experiences ignited his vision — to create a place where every person, regardless of background or income, could receive affordable, dignified, and quality healthcare. His dedication laid the foundation for a hospital in memory of Dr. N. R. Acharya that continues to heal, uplift, and inspire generations.
               </p>
-              <p>
+              <p className="text-justify hyphens-auto">
                 Today, the hospital stands as a beacon of hope for thousands of families across Udupi district and beyond, offering comprehensive medical care across more than 15 departments with a team of dedicated specialists.
               </p>
             </div>
