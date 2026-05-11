@@ -1,5 +1,5 @@
 export const departments = [
-  { id: 1, name: "Emergency Care", slug: "emergency-care", description: "Immediate medical and surgical care available 24/7", iconName: "Ambulance", sortOrder: 1 },
+  // { id: 1, name: "Emergency Care", slug: "emergency-care", description: "Immediate medical and surgical care available 24/7", iconName: "Ambulance", sortOrder: 1 },
   { id: 2, name: "Obstetrics & Gynaecology", slug: "obstetrics-gynaecology", description: "Complete women's health and maternity care", iconName: "Baby", sortOrder: 2 },
   { id: 3, name: "General Physician", slug: "general-physician", description: "Primary care for common illnesses and chronic conditions", iconName: "Stethoscope", sortOrder: 3 },
   { id: 4, name: "General Surgery", slug: "general-surgery", description: "Surgical treatment for a wide range of conditions", iconName: "Scissors", sortOrder: 4 },
@@ -34,7 +34,7 @@ export const doctors = [
 
 export const services = [
   // Emergency Care
-  { id: 1, name: "Emergency Care", departmentId: 1, doctorId: null },
+  // { id: 1, name: "Emergency Care", departmentId: 1, doctorId: null },
   { id: 2, name: "Surgical Services", departmentId: 1, doctorId: null },
   // Obstetrics
   { id: 3, name: "Anti-natal care", departmentId: 2, doctorId: 1 },

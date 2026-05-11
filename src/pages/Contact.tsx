@@ -108,27 +108,27 @@ export default function Contact() {
               </div>
             </ScrollReveal>
 
-            {/* Right: Map placeholder */}
+            {/* Right: Live Map */}
             <ScrollReveal direction="right">
-              <div className="h-full min-h-[400px] bg-[#F8FAFB] rounded-xl border border-[#E2E8F0] overflow-hidden flex items-center justify-center">
-                <div className="text-center p-8">
-                  <MapPin className="w-12 h-12 text-teal-500 mx-auto mb-4" />
-                  <h3 className="font-display text-xl font-semibold text-[#1A2332] mb-2">
-                    Dr. N.R. Acharya Memorial Hospital
-                  </h3>
-                  <p className="text-center text-[#64748B] mb-4">
-                    N.H.-66, Koteshwara,<br />Kundapura Taluk, Udupi district - 576222
-                  </p>
-                  <a
-                    href="https://maps.google.com/?q=Koteshwara+Kundapura+Udupi"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-teal-600 font-medium hover:underline"
-                  >
-                    <MapPin className="w-4 h-4" />
-                    Open in Google Maps
-                  </a>
-                </div>
+              <div className="h-full min-h-[400px] bg-[#F8FAFB] rounded-xl border border-[#E2E8F0] overflow-hidden flex flex-col">
+                <iframe
+                  src="https://www.google.com/maps?q=Dr+N+R+Acharya+Memorial+Hospital+Koteshwara+Kundapura&output=embed"
+                  className="w-full flex-1 min-h-[400px]"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Dr. N.R. Acharya Memorial Hospital location"
+                  allowFullScreen
+                />
+                <a
+                  href="https://share.google/VfYr31t8L6HD8GjaI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 py-3 bg-white border-t border-[#E2E8F0] text-teal-600 font-medium hover:bg-[#F8FAFB] transition-colors"
+                >
+                  <MapPin className="w-4 h-4" />
+                  Open in Google Maps
+                </a>
               </div>
             </ScrollReveal>
           </div>
