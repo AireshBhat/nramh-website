@@ -24,6 +24,12 @@ import {
   Waves,
 } from "lucide-react";
 import { departments } from "@/data/hospitalData";
+import founderWebp from "@/assets/nr-bhaskara-acharya.webp";
+import founderJpg from "@/assets/nr-bhaskara-acharya.jpg";
+import hospitalDayWebp from "@/assets/hospital-exterior-day.webp";
+import hospitalDayJpg from "@/assets/hospital-exterior-day.jpg";
+import hospitalDuskWebp from "@/assets/hospital-exterior-dusk.webp";
+import hospitalDuskJpg from "@/assets/hospital-exterior-dusk.jpg";
 
 const iconMap: Record<string, React.ReactNode> = {
   Stethoscope: <Stethoscope className="w-6 h-6" />,
@@ -80,7 +86,19 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center bg-[#0A2540] overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(20,184,166,0.08)_0%,_transparent_70%)]" />
+        <picture className="absolute inset-0 block">
+          <source srcSet={hospitalDayWebp} type="image/webp" />
+          <img
+            src={hospitalDayJpg}
+            alt=""
+            aria-hidden="true"
+            className="w-full h-full object-cover"
+            fetchPriority="high"
+            decoding="async"
+          />
+        </picture>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0A2540]/90 via-[#0A2540]/75 to-[#0A2540]/95" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(20,184,166,0.12)_0%,_transparent_70%)]" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <ScrollReveal delay={0}>
             <h1 className="font-display text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
@@ -184,19 +202,17 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <ScrollReveal direction="left">
-              <div className="aspect-[3/4] max-w-md mx-auto lg:mx-0 bg-[#0A2540] rounded-xl overflow-hidden border-4 border-teal-500 flex items-center justify-center p-8">
-                <div className="text-center text-white">
-                  <span className="block text-xs font-medium uppercase tracking-[0.08em] text-teal-400 mb-5">
-                    Founder · Since 1983
-                  </span>
-                  <p className="font-display text-2xl md:text-3xl font-bold leading-tight">
-                    Dr. N. Bhaskara<br />Acharya
-                  </p>
-                  <div className="h-[2px] w-12 bg-teal-500/60 mx-auto my-5" />
-                  <p className="text-center text-white/70 text-sm">
-                    MBBS, Director and Founder
-                  </p>
-                </div>
+              <div className="aspect-[3/4] max-w-md mx-auto lg:mx-0 rounded-xl overflow-hidden border-4 border-teal-500">
+                <picture>
+                  <source srcSet={founderWebp} type="image/webp" />
+                  <img
+                    src={founderJpg}
+                    alt="Dr. N. Bhaskara Acharya, Founder"
+                    className="w-full h-full object-cover object-top"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
               </div>
             </ScrollReveal>
             <ScrollReveal direction="right">
@@ -262,8 +278,20 @@ export default function Home() {
       </section>
 
       {/* Contact CTA */}
-      <section className="py-20 md:py-28 bg-[#0A2540]">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-20 md:py-28 bg-[#0A2540] overflow-hidden">
+        <picture className="absolute inset-0 block">
+          <source srcSet={hospitalDuskWebp} type="image/webp" />
+          <img
+            src={hospitalDuskJpg}
+            alt=""
+            aria-hidden="true"
+            className="w-full h-full object-cover"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0A2540]/95 via-[#0A2540]/90 to-[#0A2540]/95" />
+        <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <ScrollReveal>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-4">
               Need Immediate Assistance?
