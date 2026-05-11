@@ -112,11 +112,10 @@ export default function Contact() {
             <ScrollReveal direction="right">
               <div className="h-full min-h-[400px] bg-[#F8FAFB] rounded-xl border border-[#E2E8F0] overflow-hidden flex flex-col">
                 <iframe
-                  src="https://www.google.com/maps?q=Dr+N+R+Acharya+Memorial+Hospital+Koteshwara+Kundapura&output=embed"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=74.6762%2C13.5750%2C74.7162%2C13.6150&layer=mapnik&marker=13.5949%2C74.6962"
                   className="w-full flex-1 min-h-[400px]"
                   style={{ border: 0 }}
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
                   title="Dr. N.R. Acharya Memorial Hospital location"
                   allowFullScreen
                 />
@@ -127,7 +126,7 @@ export default function Contact() {
                   className="inline-flex items-center justify-center gap-2 py-3 bg-white border-t border-[#E2E8F0] text-teal-600 font-medium hover:bg-[#F8FAFB] transition-colors"
                 >
                   <MapPin className="w-4 h-4" />
-                  Open in Google Maps
+                  Open in Google 
                 </a>
               </div>
             </ScrollReveal>
